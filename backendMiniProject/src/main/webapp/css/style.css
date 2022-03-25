@@ -1,0 +1,380 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'KOTRAHOPE';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2')
+		format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: KOTRAHOPE;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+ul a:link, ul a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.top {
+	width: 100%;
+	height: 50px;
+	background-color: #ddd;
+	border-bottom: 2px solid gray;
+	float: left;
+	font-family: KOTRAHOPE;
+}
+
+.top>div {
+	float: left
+}
+
+.top>div:first-child {
+	width: 75%;
+	padding-left: 150px;
+	
+}
+
+.top>div:last-child {
+	width: 25%;
+}
+.top>div:last-child>ul>li {
+	float:left;
+	margin-right: 30px;
+	/*margin-top: 10px;*/
+	font-size: 1.5em;
+}
+
+#mainicon2 {
+	height: 50px;
+	width: 50px;
+}
+
+#maintext {
+	height: 50px;
+	width: 400px;
+}
+
+#profileimg{
+	float:left;
+	height: 48px;
+	width: 48px;
+}
+
+/*중반 스타일*//*중반 스타일*//*중반 스타일*//*중반 스타일*//*중반 스타일*//*중반 스타일*//*중반 스타일*//*중반 스타일*/
+#main {
+	overflow: auto;
+	background-color: lightcyan;
+}
+
+#searchdiv {
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+	height:70px;
+}
+
+#searchicon {
+	float: left;
+	margin-left: 80px;
+	width: 70px;
+	height: 70px;
+}
+
+#searchbar {
+	float: left;
+	width: 600px;
+	height: 70px;
+	margin-left: 10px;
+}
+
+#searchbtn {
+	float: left;
+	width: 80px;
+	height: 70px;
+}
+#city{
+	float: left;
+	font-size: 2em; 
+	width:150px;
+	height:70px;
+	margin-left: 5px;
+}
+
+#menu {
+	margin-left: 55px;
+	margin-bottom: 100px;
+	width: 1000px;
+	height: 256px;
+	border: 1px solid gray;
+}
+
+#slider>div, #slider {
+	width: 1000px;
+	height: 270px;
+	background-color: lightcyan;
+	float: left;
+}
+
+#slider>li>div {
+	float: left;
+}
+
+.sl {
+	width: 247px;
+	height: 245px;
+	float: left;
+}
+
+.sl>div>a>b {
+	color: yellow;
+}
+
+.img {
+	width: 190px;
+	height: 190px;
+	margin: 25px;
+	padding: 0;
+	float: left;
+}
+
+.bottom {
+	background-color: #ddd;
+	color: white;
+	text-align: center;
+	height: 200px;
+	line-height: 200px;
+	border-top: 2px solid gray;
+}
+/*web 스타일*//*web 스타일*//*web 스타일*//*web 스타일*//*web 스타일*//*web 스타일*//*web 스타일*//*web 스타일*//*web 스타일*//*web 스타일*//*web 스타일*//*web 스타일*/
+
+/*중반 스타일*/
+#main {
+	overflow: auto;
+}
+
+#card {
+	border: 1px solid gray;
+	width: 250px;
+	height: 1300px;
+	overflow: auto;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	float: left;
+	background-color: mintcream;
+}
+
+.mycard {
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid black;
+	font-size: 1.3em;
+}
+
+.card_title {
+	margin: 0px;
+	padding: 10px;
+	width: 133px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.card_image {
+	margin: 0px;
+	width: 98px;
+	height: 60px;
+	float: left;
+}
+
+.card_image>img {
+	margin: 0px;
+	padding: 2px;
+	width: 94px;
+	height: 56px;
+}
+
+.card_star {
+	margin: 0px;
+	padding: 5px;
+	width: 98px;
+	height: 39px;
+	float: left;
+}
+
+.main2 {
+	margin-top: 10px;
+	border: 1px solid gray;
+	width: 822px;
+	overflow: auto;
+	background-color: mintcream;
+	float: left;
+}
+
+.content_image {
+	float: left;
+	width: 500px;
+	height: 300px;
+}
+
+.content_image>img {
+	width: 500px;
+	height: 300px;
+}
+
+.content_info {
+	float: left;
+	width: 320px;
+	height: 300px;
+	padding: 15px;
+	overflow: hidden;
+}
+
+.content_info>ul>li {
+	font-size: 1.2em;
+}
+
+.content_main {
+	float: left;
+	width: 820px;
+	margin: 0px;
+	padding: 20px;
+	font-size: 1.3em;
+}
+
+.content_btn {
+	float: left;
+	width: 820px;
+	height: 60px;
+}
+
+.content_btn>a {
+	margin: 10px;
+}
+
+.content_map {
+	width: 820px;
+	height: 500px;
+	float: left;
+}
+
+.content_map iframe {
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+/*review   review   review   review   review   review   review   review   review   review   */
+.content_review {
+	float: left;
+	width: 420px;
+	height: 500px;
+	border-top: 1px solid black;
+	overflow: auto;
+}
+
+.review {
+	/*float: left;*/
+	width: 400px;
+	height: 100px;
+	border-bottom: 1px solid;
+}
+
+.review_profile {
+	
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+.review_profile_img {
+	float: left;
+	padding: 10px;
+	width: 100px;
+	height: 80px;
+}
+
+.review_profile_img>img {
+	width: 100%;
+	height: 100%;
+	margin:0px;
+}
+
+.review_profile_name {
+	float: left;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+}
+
+.review_content {
+	float: left;
+	width: 200px;
+	height: 100px;
+}
+
+.review_content2 {
+	width: 200px;
+	height: 80px;
+	padding: 5px;
+	text-align: center;
+}
+
+.review_star {
+	width: 200px;
+	height: 20px;
+	text-align: right;
+}
+
+.review_img {
+	float: left;
+	padding: 10px;
+	width: 100px;
+	height: 80px;
+}
+
+.review_img>img {
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.review_date {
+	float: left;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+}
+
+
+
+/*content_review_write       content_review_write      content_review_write      content_review_write      content_review_write      content_review_write      content_review_write      */
+.content_review_write {
+	float: left;
+	width: 400px;
+	height: 500px;
+	border-top: 1px solid black;
+	overflow: hidden;
+	padding: 10px;
+	border-left: 1px solid black;
+}
+
+.reviewbtn {
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	font-size: 1.5em;
+	margin-left: 272px;
+}
